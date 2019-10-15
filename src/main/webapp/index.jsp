@@ -35,7 +35,7 @@
 
                     <div class="card-deck">
                         <!-- COURSE ASSIGNMENT 1 -->
-                        <div class="card">
+                        <div class="card shadow">
                             <a href="https://runivn.dk/CA-1/">
                                 <img src="https://i.postimg.cc/Xv8ZDFhc/image.png" class="card-img-top" alt="Course Assignment 1 Crutch photo">
                             </a>
@@ -52,7 +52,7 @@
                             </div>
                         </div>
                         <!-- COURSE ASSIGNMENT 2 -->
-                        <div class="card">
+                        <div class="card shadow">
                             <a href="https://maltemagnussen.com/CA2">
                                 <img src="https://i.postimg.cc/L628Ghtx/image.png" class="card-img-top" alt="Course Assignment 2 Coffe photo">
                             </a>
@@ -71,7 +71,7 @@
                             </div>
                         </div>
                         <!-- MY GITHUB ACCOUNT -->
-                        <div class="card">
+                        <div class="card shadow">
                             <a href="https://github.com/MalteMagnussen">
                                 <img src="https://i.imgur.com/qaDtYoL.png?1" class="card-img-top" alt="My GitHub Account photo">
                             </a>
