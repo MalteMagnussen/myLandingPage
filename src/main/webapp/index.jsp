@@ -31,40 +31,63 @@
         <div class="container">
             <div class="card border-0 shadow my-5">
                 <div class="card-body p-5">
-
                     <h1 class="font-weight-light">Malte Hviid-Magnussen</h1>
-                    <!-- Review Links -->
-                    <div class="float-left">
-                        <h2 class="font-weight-light">Course Assignments</h2>
-                        <div class="btn-group-vertical">
-                            <a class="btn btn-dark" href="https://runivn.dk/CA-1/" role="button">CA 1</a>
-                            <a class="btn btn-dark" href="https://maltemagnussen.com/CA2" role="button">CA 2</a>
-                        </div>
-                    </div>
 
-
-
-                    <!-- My GitHub -->
-                    <div class="float-right">
-                        <h4 class="font-weight-light">My GitHub</h4>
-                        <div class="card border-0 shadow">
-
-                            <a href="https://github.com/MalteMagnussen">
-
-                                <img src="https://i.imgur.com/qaDtYoL.png?1">
-
+                    <div class="card-deck">
+                        <!-- COURSE ASSIGNMENT 1 -->
+                        <div class="card">
+                            <a href="https://runivn.dk/CA-1/">
+                                <img src="https://i.postimg.cc/Xv8ZDFhc/image.png" class="card-img-top" alt="Course Assignment 1 Crutch photo">
                             </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Course Assignment 1</h5>
+                                <p class="card-text">
+                                    <a href="https://docs.google.com/document/d/12hKo2N_VAHISCKVAxdqMpeiKGDSJajBzHJ182bHUdPU/edit">Description</a> of the Assignment
+                                    <br>
+                                    <a href="https://github.com/Runi-VN/CA-1">GitHub</a> for the Project
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">September 2019</small>
+                            </div>
+                        </div>
+                        <!-- COURSE ASSIGNMENT 2 -->
+                        <div class="card">
+                            <a href="https://maltemagnussen.com/CA2">
+                                <img src="https://i.postimg.cc/L628Ghtx/image.png" class="card-img-top" alt="Course Assignment 2 Coffe photo">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Course Assignment 2</h5>
+                                <p class="card-text">
+                                    <a href="https://docs.google.com/document/d/1KwvtlWjx-FINtFSUfkybmThiOaHmSonQgOhssf3hkdU/edit">Description</a> of the Assignment
+                                    <br>
+                                    <a href="https://github.com/MalteMagnussen/CA2">Backend</a> GitHub of the Project
+                                    <br>
+                                    <a href="https://github.com/MalteMagnussen/CA2-FrontEnd">FrontEnd</a> GitHub of the Project
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">October 2019</small>
+                            </div>
+                        </div>
+                        <!-- MY GITHUB ACCOUNT -->
+                        <div class="card">
+                            <a href="https://github.com/MalteMagnussen">
+                                <img src="https://i.imgur.com/qaDtYoL.png?1" class="card-img-top" alt="My GitHub Account photo">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">My GitHub Account</h5>
+                                <p class="card-text">You can find all my projects here.</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Since 2018</small>
+                            </div>
                         </div>
                     </div>
-
-
                     <div style="height: 700px"></div>
                 </div>
             </div>
-
         </div>
-
-
         <!-- JQUERY JS -->
         <script src="https://code.jquery.com/jquery-3.4.0.min.js" crossorigin="anonymous"></script>
         <!-- BOOTSTRAP JS -->
