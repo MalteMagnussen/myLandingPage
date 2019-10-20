@@ -53,7 +53,7 @@
                         </div>
                         <!-- COURSE ASSIGNMENT 2 -->
                         <div class="card shadow">
-                            <a href="https://maltemagnussen.com/CA2">
+                            <a href="https://holdkrykke.surge.sh">
                                 <img src="https://i.postimg.cc/L628Ghtx/image.png" class="card-img-top" alt="Course Assignment 2 Coffe photo">
                             </a>
                             <div class="card-body">
