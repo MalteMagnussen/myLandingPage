@@ -11,7 +11,7 @@ document.getElementById("svgMap").addEventListener("click", function(event) {
     var name = event.target.name;
 
     // Output name of country 
-    document.getElementById("mapOutput").innerHTML = "Country is: " + name;
+    document.getElementById("mapOutput").innerHTML = "Country is: " + id;
 
     // Default style of a country
     var defaultStyle = "fill='#ececec';stroke-linejoin='round';stroke-width='.1';stroke='black';stroke-linecap='round';";
