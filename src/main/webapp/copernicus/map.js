@@ -2,7 +2,7 @@
 var previous = {};
 
 // Get the country clicked:
-document.getElementById("svgMap").addEventListener("click", function(event) {
+document.getElementById("svgMap").addEventListener("click", function (event) {
 
     var country = event.target;
 
@@ -22,9 +22,10 @@ document.getElementById("svgMap").addEventListener("click", function(event) {
     // Set new previous
     previous = country;
 
-    // Set country style 
-    country.style = "fill:#0004ff;";
+    if (typeof country !== "path") {
+        // Set country style 
+        country.style = "fill:#0004ff;";
+    }
 
-    
 
 });
