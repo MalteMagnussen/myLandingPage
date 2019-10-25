@@ -22,10 +22,9 @@ document.getElementById("svgMap").addEventListener("click", function (event) {
     // Set new previous
     previous = country;
 
-    if (typeof country !== "path") {
+    if (id !== "svgMap") {
         // Set country style 
         country.style = "fill:#0004ff;";
     }
-
 
 });
