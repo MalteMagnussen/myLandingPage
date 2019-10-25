@@ -10,8 +10,6 @@ document.getElementById("svgMap").addEventListener("click", function (event) {
     var id = event.target.id;
     var name = event.target.name;
 
-    // Output name of country 
-    document.getElementById("mapOutput").innerHTML = "Country is: " + id;
 
     // Default style of a country
     var defaultStyle = "fill='#ececec';stroke-linejoin='round';stroke-width='.1';stroke='black';stroke-linecap='round';";
@@ -25,6 +23,10 @@ document.getElementById("svgMap").addEventListener("click", function (event) {
     if (id !== "svgMap") {
         // Set country style 
         country.style = "fill:#0004ff;";
+        // Output name of country 
+        document.getElementById("mapOutput").innerHTML = "Country is: " + id;
+    } else {
+        document.getElementById("mapOutput").innerHTML = "Please select a country.";
     }
 
 });
