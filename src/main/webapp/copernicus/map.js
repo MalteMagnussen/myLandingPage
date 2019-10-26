@@ -25,6 +25,10 @@ document.getElementById("svgMap").addEventListener("click", function (event) {
         // Output name of country 
         document.getElementById("mapOutput").innerHTML = "Country is: " + id;
         // ADD DYNAMIC BEHAVIOR HERE BASED ON ID. CALL NAVIGATE. 
+        if (id === "DK") { // If Denmark
+            navigate(id); // Load DK.html
+            document.getElementById("DKButton").click(); // Open Modal 
+        }
     } else if (id === "windTurbine" || id==="windTurbine2") // If we've clicked the wind turbine left of denmark
     { 
         // Output
