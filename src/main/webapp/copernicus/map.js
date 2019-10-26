@@ -15,7 +15,7 @@ document.getElementById("svgMap").addEventListener("click", function (event) {
     var defaultStyle = "fill='#ececec';stroke-linejoin='round';stroke-width='.1';stroke='black';stroke-linecap='round';";
 
     // If you've selected a country. 
-    if (id !== "svgMap" && id !== "windTurbine" && id!=="windTurbine2") {
+    if (id !== "svgMap" && id !== "windTurbine" && id !== "windTurbine2") {
         // Revert style of previous. 
         previous.style = defaultStyle;
         // Set new previous. 
@@ -25,12 +25,9 @@ document.getElementById("svgMap").addEventListener("click", function (event) {
         // Output name of country 
         document.getElementById("mapOutput").innerHTML = "Country is: " + id;
         // ADD DYNAMIC BEHAVIOR HERE BASED ON ID. CALL NAVIGATE. 
-        if (id === "DK") { // If Denmark
-            navigate(id); // Load DK.html
-            
-        }
-    } else if (id === "windTurbine" || id==="windTurbine2") // If we've clicked the wind turbine left of denmark
-    { 
+        navigate(id); // Load proper html - Hopefully doesn't spawn too many errors. But it surely will. 
+    } else if (id === "windTurbine" || id === "windTurbine2") // If we've clicked the wind turbine left of denmark
+    {
         // Output
         document.getElementById("mapOutput").innerHTML = "You've selected the wind turbine";
     }
