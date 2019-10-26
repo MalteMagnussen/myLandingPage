@@ -65,7 +65,7 @@ function navigate(id) {
     // Set the content div innerHTML based on the fragment identifier.
     fetchFile(id, function (content) {
         contentDiv.innerHTML = content;
-        document.getElementById("modelButton").click(); // Open Modal 
+        document.getElementById("modalButton").click(); // Open Modal 
     });
 }
 /* End of JavaScript code for dynamic navigation behavior */
