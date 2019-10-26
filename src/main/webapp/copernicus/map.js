@@ -27,7 +27,7 @@ document.getElementById("svgMap").addEventListener("click", function (event) {
         // ADD DYNAMIC BEHAVIOR HERE BASED ON ID. CALL NAVIGATE. 
         if (id === "DK") { // If Denmark
             navigate(id); // Load DK.html
-            document.getElementById("DKButton").click(); // Open Modal 
+            
         }
     } else if (id === "windTurbine" || id==="windTurbine2") // If we've clicked the wind turbine left of denmark
     { 
@@ -65,6 +65,7 @@ function navigate(id) {
     // Set the content div innerHTML based on the fragment identifier.
     fetchFile(id, function (content) {
         contentDiv.innerHTML = content;
+        document.getElementById("modelButton").click(); // Open Modal 
     });
 }
 /* End of JavaScript code for dynamic navigation behavior */
