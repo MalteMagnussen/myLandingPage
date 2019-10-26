@@ -27,15 +27,22 @@
             <div class="card-body p-5">
                 <!--Headline-->
                 <h1 class="font-weight-light">Satellite Energy Solutions</h1>
-                <h2 class="font-weight-light">Average Windspeeds in Europe</h2>
 
-                <div class="btn-group" role="group" aria-label="Average Windspeeds">
-                    <button type="button" class="btn btn-secondary" id="2018100m">2018, 100m</button>
-                    <button type="button" class="btn btn-secondary" id="2018150m">2018, 150m</button>
+                <div class="card shadow p-3 mb-5 bg-white rounded">
+                    <div class="card-body">
+                        <h2 class="font-weight-light">Average Windspeeds in Europe</h2>
+
+                        <div class="btn-group" role="group" aria-label="Average Windspeeds">
+                            <button type="button" class="btn btn-secondary" id="2018100m">2018, 100m</button>
+                            <button type="button" class="btn btn-secondary" id="2018150m">2018, 150m</button>
+                        </div>
+
+                        <!--Dynamically loaded content-->
+                        <div id="contentAvgWindSpeeds"></div>
+                    </div>
                 </div>
 
-                <!--Dynamically loaded content-->
-                <div id="content"></div>
+
 
                 <br>
                 <!-- Back Button -->
