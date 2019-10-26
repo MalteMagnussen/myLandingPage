@@ -25,7 +25,12 @@ document.getElementById("svgMap").addEventListener("click", function (event) {
         // Output name of country 
         document.getElementById("mapOutput").innerHTML = "Country is: " + id;
         // ADD DYNAMIC BEHAVIOR HERE BASED ON ID. CALL NAVIGATE. 
-    } else // if you've selected the ocean. 
+    } else if (id === "windTurbine") // If we've clicked the wind turbine left of denmark
+    { 
+        // Output
+        document.getElementById("mapOutput").innerHTML = "You've selected the wind turbine";
+    }
+    else // if you've selected the ocean. 
     {
         document.getElementById("mapOutput").innerHTML = "Please select a country.";
     }
