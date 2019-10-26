@@ -26,7 +26,7 @@ var contentProduction = document.getElementById("contentAvgProduction");
 // Case Example Button
 var caseExample = document.getElementById("caseExample");
 caseExample.addEventListener("click", function(){
-    contentCaseExample.innerHTML = '<img src="../images/REPLACEME.gif" alt="Weather Data" style="max-width:100%;max-height:100%;height:auto;">'
+    contentCaseExample.innerHTML = '<img src="../images/caseGIF.gif" alt="Weather Data" style="max-width:100%;max-height:100%;height:auto;">'
 });
 
 // Output for content for average wind speeds
