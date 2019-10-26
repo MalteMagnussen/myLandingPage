@@ -14,9 +14,8 @@ document.getElementById("svgMap").addEventListener("click", function (event) {
     // Default style of a country. 
     var defaultStyle = "fill='#ececec';stroke-linejoin='round';stroke-width='.1';stroke='black';stroke-linecap='round';";
 
-
     // If you've selected a country. 
-    if (id !== "svgMap") {
+    if (id !== "svgMap" && id !== "windTurbine") {
         // Revert style of previous. 
         previous.style = defaultStyle;
         // Set new previous. 
