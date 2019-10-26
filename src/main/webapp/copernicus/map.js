@@ -14,14 +14,13 @@ document.getElementById("svgMap").addEventListener("click", function (event) {
     // Default style of a country. 
     var defaultStyle = "fill='#ececec';stroke-linejoin='round';stroke-width='.1';stroke='black';stroke-linecap='round';";
 
-    // Revert style of previous. 
-    previous.style = defaultStyle;
-
-    // Set new previous. 
-    previous = country;
 
     // If you've selected a country. 
     if (id !== "svgMap") {
+        // Revert style of previous. 
+        previous.style = defaultStyle;
+        // Set new previous. 
+        previous = country;
         // Set country style 
         country.style = "fill:#0004ff;";
         // Output name of country 
