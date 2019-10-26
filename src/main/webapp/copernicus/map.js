@@ -54,7 +54,7 @@ function fetchFile(path, callback) {
         }
     };
     // Fetch the partial HTML File given the fragment.
-    request.open("GET", 'countries/' + path + '.html'); // Initialize the request. HTTP GET request + PATH
+    request.open("GET", 'https://maltemagnussen.com/copernicus/countries/' + path + '.html'); // Initialize the request. HTTP GET request + PATH
     request.send(null); // Finalize the request.
 }
 
