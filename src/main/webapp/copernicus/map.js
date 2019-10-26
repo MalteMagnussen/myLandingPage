@@ -47,7 +47,11 @@ function fetchFile(path, callback) {
     var request = new XMLHttpRequest();
     // Call the callback with the content loaded from the file. 
     request.onload = function () { // This is the function that gets invoked once the file is loaded.
-        callback(request.responseText); // We get the content here. 
+        if (request.status != 200) {
+            callback("No data implemented for this country yet.");
+        } else {
+            callback(request.responseText); // We get the content here. 
+        }
     };
     // Fetch the partial HTML File given the fragment.
     request.open("GET", path + '.html'); // Initialize the request. HTTP GET request + PATH
