@@ -1,0 +1,71 @@
+<!-- Button trigger modal -->
+<button type="button" id="modalButton" class="btn btn-primary" data-toggle="modal" data-target="#Modal" hidden>
+        Launches Modal
+    </button>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Germany Data</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!--INSERT DATA HERE-->
+                    <!--Data table:-->
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th scope="col">Year</th>
+                                <th scope="col">Average Price (DKK/MWh)</th>
+                            </tr>
+                        </thead>
+                        <tbody> <!-- TODO UPDATE -->
+                            <tr>
+                                <td>2019</td>
+                                <td>267.8044</td>
+                            </tr>
+                            <tr>
+                                <td>2020</td>
+                                <td>285.7034</td>
+                            </tr>
+                            <tr>
+                                <td>2021</td>
+                                <td>325.9303</td>
+                            </tr>
+                            <tr>
+                                <td>2023</td>
+                                <td>436.6221</td>
+                            </tr>
+                            <tr>
+                                <td>2025</td>
+                                <td>441.4724</td>
+                            </tr>
+                            <tr>
+                                <td>2030</td>
+                                <td>362.5888</td>
+                            </tr>
+                            <tr>
+                                <td>2035</td>
+                                <td>381.9629</td>
+                            </tr>
+                            <tr>
+                                <td>2040</td>
+                                <td>397.7376</td>
+                            </tr>
+    
+                        </tbody>
+                    </table>
+    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <a class="btn btn-primary" href="DE_Electricity_Price_forecast.xlsx" role="button" download>Save Data</a>
+                </div>
+            </div>
+        </div>
+    </div>
