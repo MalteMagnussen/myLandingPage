@@ -90,6 +90,9 @@
                 <small class="text-muted">October 2019</small>
               </div>
             </div>
+          </div>
+          <br />
+          <div class="card-deck">
             <!-- MY GITHUB ACCOUNT -->
             <div class="card shadow">
               <a href="https://github.com/MalteMagnussen">
@@ -123,6 +126,9 @@
                   Made by August A. Zachariae, Malte Magnussen, Andreas Stokholm
                   at Copernicus Hackathon 25-27 October 2019
                 </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">October 2018</small>
               </div>
             </div>
           </div>
