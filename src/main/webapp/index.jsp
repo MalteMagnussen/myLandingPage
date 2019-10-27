@@ -33,6 +33,49 @@
           <h1 class="font-weight-light">Malte Hviid-Magnussen</h1>
 
           <div class="card-deck">
+            <!-- MY GITHUB ACCOUNT -->
+            <div class="card shadow">
+              <a href="https://github.com/MalteMagnussen">
+                <img
+                  src="https://i.imgur.com/qaDtYoL.png?1"
+                  class="card-img-top"
+                  alt="My GitHub Account photo"
+                />
+              </a>
+              <div class="card-body">
+                <h5 class="card-title">My GitHub Account</h5>
+                <p class="card-text">You can find all my projects here.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Since 2018</small>
+              </div>
+            </div>
+            <!-- COPERNICUS -->
+            <div class="card shadow">
+              <a href="https://maltemagnussen.com/copernicus/map.html">
+                <img
+                  src="images/EUAvg2018100m.png"
+                  class="card-img-top"
+                  style="width:100%;height:100%;"
+                  alt="Copernicus data"
+                />
+              </a>
+              <div class="card-body">
+                <h5 class="card-title">Copernicus Hackathon Mockup</h5>
+                <p class="card-text">
+                  Made by August A. Zachariae, Malte Magnussen, Andreas Stokholm
+                  at Copernicus Hackathon 25-27 October 2019
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">October 2018</small>
+              </div>
+            </div>
+          </div>
+
+          <br />
+
+          <div class="card-deck">
             <!-- COURSE ASSIGNMENT 1 -->
             <div class="card shadow">
               <a href="https://runivn.dk/CA-1/">
@@ -91,48 +134,8 @@
               </div>
             </div>
           </div>
-          <br />
-          <div class="card-deck">
-            <!-- MY GITHUB ACCOUNT -->
-            <div class="card shadow">
-              <a href="https://github.com/MalteMagnussen">
-                <img
-                  src="https://i.imgur.com/qaDtYoL.png?1"
-                  class="card-img-top"
-                  alt="My GitHub Account photo"
-                />
-              </a>
-              <div class="card-body">
-                <h5 class="card-title">My GitHub Account</h5>
-                <p class="card-text">You can find all my projects here.</p>
-              </div>
-              <div class="card-footer">
-                <small class="text-muted">Since 2018</small>
-              </div>
-            </div>
-            <!-- COPERNICUS -->
-            <div class="card shadow">
-              <a href="https://maltemagnussen.com/copernicus/map.html">
-                <img
-                  src="images/EUAvg2018100m.png"
-                  class="card-img-top"
-                  style="width:100%;height:100%;"
-                  alt="Copernicus data"
-                />
-              </a>
-              <div class="card-body">
-                <h5 class="card-title">Copernicus Hackathon Mockup</h5>
-                <p class="card-text">
-                  Made by August A. Zachariae, Malte Magnussen, Andreas Stokholm
-                  at Copernicus Hackathon 25-27 October 2019
-                </p>
-              </div>
-              <div class="card-footer">
-                <small class="text-muted">October 2018</small>
-              </div>
-            </div>
-          </div>
-          <div style="height: 700px"></div>
+
+          <div style="height: 100px"></div>
         </div>
       </div>
     </div>
