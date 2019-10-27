@@ -68,7 +68,7 @@
                 </p>
               </div>
               <div class="card-footer">
-                <small class="text-muted">October 2018</small>
+                <small class="text-muted">October 2019</small>
               </div>
             </div>
           </div>
